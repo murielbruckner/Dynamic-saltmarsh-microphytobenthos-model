@@ -1,2 +1,2 @@
 # Dynamic-saltmarsh-microphytobenthos-model
-Brückner et al. (2020) What Came First, Mud or Biostabilizers? Elucidating Interacting Effects in a Coupled Model of Mud, Saltmarsh, Microp hytobenthos, and Estuarine Morphology
+The model is described in Brückner et al. (2019) https://doi.org/10.1029/2019JF005092 and Brückner et al. (2020) https://doi.org/10.1029/2019WR026945 and computes dynamic interactions between saltmarsh vegetation or microphytobenthos (MATLAB) and hydro-morphodynamic computations in Delft3D. The model has been run on MATLAB 2017a. For detailed description of the model, please refer to the Modeldescription.pdf.
