@@ -4,18 +4,18 @@
 # 1.1. maximum age
 # 1.2. amount of months seed dispersal
 # 1.3. Colonisation method (1 = on bare substrate between max and min water levels, 2 = on bare substrate with mud content
-# 1.4. Growth method (1 = variation between years; e.g. trees, 2 = variation within year; e.g. herbs)
+# 1.4. Growth method (1 = seasonal variation within year; e.g. herbs)
 # 1.5. vegetation formula (is fixed with Baptiste 2007: 154, for different formula other parameters are required)
 # 1.6. number of life stages 
 # 1.7. initial root length in m
 # 1.8. initial shoot length in m
 # 1.9. initial stem diameter in m
-# 1.10. Vegetation type (1 = riparian, 2 = aquatic, 3 = amphibic)
-# 1.11. = logarithmic growth factor shoot | 1.12. = logarithmic growth factor root | 1.13. = logarithmic growth factor stem (length = growth factor * log(age)) (in case of growth strategy 1)
+# 1.10. Vegetation type (1 = saltmarsh)
+# 1.11.-1.13 palceholders in case of growth strategy 1
 # 1.14 Ecological timestep start growth shoot (in case of growth method 2)
 # 1.15 Ecological timestep end growth shoot (in case of growth method 2) 
 # 1.16 Ecotime step start winter period
-# 1.17
+# 1.17 placeholder
 # 2.1 Ecotimestep at which colonisation starts 
 # 2.2 Ecotimestep of last colonisation 
 #
@@ -28,7 +28,7 @@
 # 3.5. number of stems per m2 
 # 3.6. area fraction (0-1)
 # 3.7. drag coefficient
-# 3.8. mud percentage?
+# 3.8. mud percentage for colonization (>0 if colonization strategy 2)
 # 3.9. dessication mortality threshold 
 # 3.10. dessication mortality slope 
 # 3.11. flooding mortality threshold 
@@ -36,7 +36,7 @@
 # 3.13. flow velocity threshold
 # 3.14. flow velocity slope 
 # 3.15 max height during winter time (only growth strategy 2)
-# 3.16 Salinity tolerance
+# 3.16 Salinity tolerance (excluded here)
 
 #1	#2	#3	#4	#5	#6	#7	#8	#9	#10	#11	#12	#13	#14	#15	#16
 20  	1    	2    	2     	154    	2    	0.005  	0.1 	0.005  	1.0 	0	0	0	2 	17	21
